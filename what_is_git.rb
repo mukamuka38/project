@@ -3,8 +3,8 @@ Class WhatIsGit
 		puts 'http://#{lang}.wikipedia.org/wiki/Git'
 	end
 
-	def show
-		puts 'if you understand the basis, Git is easy.'
+	def show(mag = 'easy!'
+		puts 'Git is #{mag}'
 	end
 
 end
