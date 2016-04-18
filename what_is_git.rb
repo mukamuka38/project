@@ -1,5 +1,8 @@
 class WhatIsGit
-	def about(lang = 'en')
+	def about(lang = nil)
+		if lang==nul then
+			lang = language
+		end
 		puts "http://#{lang}.wikipedia.org/wiki/Git"
 	end
 
@@ -16,6 +19,9 @@ class WhatIsGit
 		def input(message)
 			puts message 
 			gets.chomp.downcase
+		end
+
+		def language
 		end
 
 end
